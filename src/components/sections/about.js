@@ -113,6 +113,7 @@ const StyledAvatarLink = styled.a`
 `;
 
 const About = ({ data }) => {
+  debugger;
   const { frontmatter, html } = data[0].node;
   const { title, skills, avatar } = frontmatter;
   const revealContainer = useRef(null);
